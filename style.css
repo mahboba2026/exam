@@ -1,0 +1,24 @@
+.book-img {
+  width: 100%;
+  max-width: 180px;
+  height: 280px;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding: 15px;
+  }
+  .navbar {
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .book-img {
+    max-width: 140px;
+    height: 200px;
+  }
+}
